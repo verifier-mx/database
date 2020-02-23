@@ -976,9 +976,10 @@ js-yaml@3.13.1, js-yaml@^3.12.0:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-"json-schema-faker@git+https://github.com/voxfeed/json-schema-faker.git#bugfix-min-items":
+"json-schema-faker@https://github.com/voxfeed/json-schema-faker#bugfix-min-items":
   version "0.5.0-rc15"
-  resolved "git+https://github.com/voxfeed/json-schema-faker.git#26d34af05950a6abb8e9b6cb880f3982f4a5765f"
+  uid "26d34af05950a6abb8e9b6cb880f3982f4a5765f"
+  resolved "https://github.com/voxfeed/json-schema-faker#26d34af05950a6abb8e9b6cb880f3982f4a5765f"
   dependencies:
     deref "^0.7.1"
     json-schema-ref-parser "^5.0.0"
@@ -1912,7 +1913,8 @@ v8flags@^3.1.3:
 
 "verifier-test-utils@git+ssh://git@github.com/manuelmhtr/verifier-test-utils.git":
   version "1.1.0"
-  resolved "git+ssh://git@github.com/manuelmhtr/verifier-test-utils.git#6479aec7ef17d0dda968d5b34676eff630a0de12"
+  uid e3cbed9debd1e00f16e381aba5bc299c716baec0
+  resolved "git+ssh://git@github.com/manuelmhtr/verifier-test-utils.git#e3cbed9debd1e00f16e381aba5bc299c716baec0"
   dependencies:
     fixtures-generator "^1.0.3"
     lodash "^4.17.15"
