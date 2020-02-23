@@ -8,4 +8,4 @@ Database module for [Verifier](https://verifier.mx) project.
 * `POSTGRES_PORT`
 * `POSTGRES_USER`
 * `POSTGRES_PASS`
-
+* `POSTGRES_DATABASE`
