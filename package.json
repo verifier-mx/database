@@ -32,7 +32,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "mocha": "^7.0.1",
+    "mocha": "^7.1.0",
     "verifier-test-utils": "git+ssh://git@github.com/manuelmhtr/verifier-test-utils.git"
   }
 }
