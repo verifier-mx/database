@@ -5,6 +5,7 @@ exports.up = function(knex) {
     table.uuid('id').primary().defaultTo(knex.raw('gen_random_uuid()'));
     table.string('rfc').notNullable();
     table.unique('rfc');
+
     table.string('type');
     table.string('sat_message');
     table.boolean('is_valid');

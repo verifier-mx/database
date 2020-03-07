@@ -16,6 +16,14 @@
   },
   "author": "Manuel de la Torre",
   "license": "ISC",
+  "mocha": {
+    "bail": true,
+    "exit": true,
+    "recursive": true,
+    "fullTrace": true,
+    "timeout": 5000,
+    "ui": "bdd"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "knex": "^0.20.10",
