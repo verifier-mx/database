@@ -38,7 +38,7 @@ describe('Database | Blacklist69b store | .findByRfc', () => {
     expect(actualFields).to.be.deep.equal(fields);
   });
 
-  it('should throw error when not sending an id', () => {
+  it('should throw error when not sending a rfc', () => {
     return expect(database.blacklist69b.findByRfc()).to.be.rejectedWith('Undefined binding(s) detected when compiling FIRST. Undefined column(s): [rfc] query: select * from "blacklist_69b" where "rfc" = ? and "deleted_at" is null limit ?');
   });
 

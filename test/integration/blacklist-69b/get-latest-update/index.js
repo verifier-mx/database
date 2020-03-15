@@ -9,7 +9,7 @@ describe('Database | Blacklist69b store | .getLatestUpdate', () => {
       await testUtils.insertFixtures(fixtures);
     });
 
-    it('should return null the newest updated_at date', async () => {
+    it('should return the newest updated_at date', async () => {
       const result = await database.blacklist69b.getLatestUpdate();
       expect(result.getTime()).to.be.equal(5);
     });
@@ -20,7 +20,7 @@ describe('Database | Blacklist69b store | .getLatestUpdate', () => {
       await testUtils.resetDatabase();
     });
 
-    it('should return null the newest updated_at date', async () => {
+    it('should return null', async () => {
       const result = await database.blacklist69b.getLatestUpdate();
       expect(result).to.be.equal(null);
     });
