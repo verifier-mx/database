@@ -25,14 +25,14 @@
     "ui": "bdd"
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "knex": "^0.20.10",
-    "pg": "^7.18.2"
+    "dotenv": "^10.0.0",
+    "knex": "^0.95.6",
+    "pg": "^8.6.0"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
+    "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
-    "mocha": "^7.0.1",
+    "mocha": "^9.0.2",
     "verifier-test-utils": "git+ssh://git@github.com/manuelmhtr/verifier-test-utils.git"
   }
 }
