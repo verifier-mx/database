@@ -1007,9 +1007,9 @@ util-deprecate@^1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-"verifier-test-utils@git+ssh://git@github.com/manuelmhtr/verifier-test-utils.git":
+verifier-test-utils@verifier-mx/test-utils.git:
   version "1.1.0"
-  resolved "git+ssh://git@github.com/manuelmhtr/verifier-test-utils.git#8edbd91e56394fa90a7ede326fb22d11c0d03465"
+  resolved "git+ssh://git@github.com/verifier-mx/test-utils.git#8edbd91e56394fa90a7ede326fb22d11c0d03465"
   dependencies:
     fixtures-generator "^1.0.3"
     lodash "^4.17.15"
